@@ -1,0 +1,23 @@
+/* 디즈니 하위 태그에 모두 상속됨 */
+.disney {
+    color: firebrick;
+}
+
+/* 상속되지 않는 속성 */
+p {
+    border : dashed 2px;
+}
+
+/* 상속되지 않는 속성들을 강제상속 */
+h3 {
+    color: green;
+}
+
+#sidebar {
+    color: blue;
+}
+
+/* h3 중에서도 id가 sidebar인 태그 내부에만 해당되는 h3 태그만 */
+#sidebar h3 {
+    color: inherit;
+}

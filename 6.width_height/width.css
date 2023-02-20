@@ -1,0 +1,13 @@
+.width-default {
+    /* 브라우저 창 기준 100% */
+    width: 100%;
+}
+
+.width-px {
+    /* 절대적 크기 300px */
+    width: 300px;
+}
+
+.width-pct {
+    width: 50%;
+}

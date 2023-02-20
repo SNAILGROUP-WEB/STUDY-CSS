@@ -1,0 +1,30 @@
+/* 모든 태그에 적용할 때 사용하는 wildcard : * */
+* {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+/* 타입(html 태그) 셀렉터 */
+h2 {
+    color: slateblue;
+}
+
+/* 클래스 선택자 : . */
+/* 중복 적용 가능 */
+/* solid(실선) dashed(점선) */
+.class-selector {
+    font-size: 30px;
+    /* border: 2px dashed firebrick; */
+    border-width: 2px;
+    border-style: dashed;
+    border-color: firebrick;
+}
+
+/* 아이디 선택자 : # */
+/* 중복 적용하지 않음 */
+#id-selector {
+    font-size: 30px;
+    font-style: italic;
+    color: forestgreen;
+}
+
+/* 우선순위 : id > class > type > general */

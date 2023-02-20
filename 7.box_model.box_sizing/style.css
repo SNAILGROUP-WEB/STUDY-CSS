@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    /* box의 사이즈를 측정하는 기준이 무엇인가 */
+    /* default는 content-box : 내용의 크기를 기준으로 함(안쪽여백까지 제외한 영역) */
+    /* 보통은 경계선까지의 크기를 기준으로 함 */
+    box-sizing: border-box;
+}
+
+
+.box {
+    width: 30%;
+    background-color: skyblue;
+    font-size: 50px;
+    padding: 200px;
+    border: dotted 5px beige;
+}
+
+/* margin 바깥여백 */
+/* margin-top : 위에만 바깥여백 주기 */
+/* margin: 1px 2px 3px 4px; top부터 시계방향 */
+/* margin: 1px 2px 3px; 상, 좌우, 하 */
+/* margin: 10px 20px; 상하, 좌우 */
+
+/* border 경계선 */
+
+/* padding 안쪽여백 */
+/* padding-top : 위에만 안쪽여백 주기 */
+/* padding: 1px 2px 3px 4px; top부터 시계방향 */
+/* padding: 1px 2px 3px; 상, 좌우, 하 */
+/* padding: 10px 20px; 상하, 좌우 */
+
+/* content area */

@@ -1,0 +1,59 @@
+html {
+    font-size: 22px;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    border-spacing: 10px;
+    margin: 0 auto;
+    /* 바깥쪽 여백 */
+}
+
+tr,
+td {
+    padding: 10px;
+    /* 안쪽 여백 */
+}
+
+.browser-color {
+    color: red;
+}
+
+.google-rgb {
+    color: rgb(0, 255, 0);
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.google-rgba {
+    color: rgba(0, 0, 255, 0.8);
+    font-family: 'Raleway', sans-serif;
+}
+
+.px-parent {
+    /* font-size: 16px; browser default size */
+    font-size: 32px;
+}
+
+.px-child {
+    font-size: 16px;
+}
+
+.em-parent {
+    font-size: 3em;
+}
+
+.em-child {
+    font-size: 0.5em;
+}
+
+.rem-parent {
+    font-size: 3rem;
+}
+
+.rem-child {
+    font-size: 0.5rem;
+}
